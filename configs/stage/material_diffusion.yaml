@@ -11,7 +11,7 @@ defaults:
 # ======================== DATAMODULE ============================
 
 data:
-  input_path: res/test.png
+  input_path: res/clevr_teaser.jpg
   include_metadata: True
 
 output:
