@@ -58,6 +58,12 @@ conda install xformers -c xformers
 ```
 The code has been tested with Ubuntu 22.04.3 LTS and Ubuntu 20.04.3 LTS with RTX_3090 and A4000 GPUs. 
 
+#### Extra notes
+If there's an error about MKL_THREADING_LAYER=INTEL is incompatible with libgomp.so.1, then try this
+```
+export MKL_SERVICE_FORCE_INTEL=1
+```
+
 
 ### Model
 #### Material Diffusion
