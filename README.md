@@ -64,6 +64,7 @@ If there's an error about MKL_THREADING_LAYER=INTEL is incompatible with libgomp
 export MKL_SERVICE_FORCE_INTEL=1
 ```
 
+Also, installing xformers can mess up the torch intallation (goes from cuda to cpu) so be careful of that.
 
 ### Model
 #### Material Diffusion
